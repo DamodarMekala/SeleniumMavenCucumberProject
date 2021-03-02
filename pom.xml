@@ -19,13 +19,33 @@
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>4.13.2</version>
-        <scope>test</scope>
+     <!--   <scope>test</scope>-->
     </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.0.0-alpha-1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jglue.cdi-unit/cdi-unit -->
+        <dependency>
+            <groupId>org.jglue.cdi-unit</groupId>
+            <artifactId>cdi-unit</artifactId>
+            <version>4.0.1</version>
+           <!-- <scope>test</scope>-->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
@@ -87,6 +107,26 @@
             <artifactId>gherkin</artifactId>
             <version>16.0.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.15.0</version>
+           <!-- <scope>test</scope> -->
+        </dependency>
+
 
     </dependencies>
 
